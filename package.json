@@ -1,0 +1,42 @@
+{
+  "name": "astro-icon",
+  "version": "0.8.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./pack": "./lib/createIconPack.ts"
+  },
+  "files": [
+    "lib",
+    "index.ts"
+  ],
+  "author": {
+    "name": "Matthew Gardner",
+    "email": "boilermonster0530@yahoo.com"
+  },
+  "keywords": [
+    "astro",
+    "astro-component",
+    "image",
+    "images",
+    "icon",
+    "icons",
+    "iconify",
+    "optimization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsteRico/astro-icon.git",
+    "directory": "packages/core"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonsteRico/astro-icon/issues"
+  },
+  "homepage": "https://github.com/MonsteRico/astro-icon#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0",
+    "resolve-pkg": "^2.0.0",
+    "svgo": "^2.8.0"
+  }
+}
